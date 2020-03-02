@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
         val countryName: String = addresses[0].countryCode
          zipCode = addresses[0].postalCode
 
-        Toast.makeText(this, cityName + "," + countryName, Toast.LENGTH_LONG).show()
+       // Toast.makeText(this, cityName + "," + countryName, Toast.LENGTH_LONG).show()
 
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         registerObservers()
